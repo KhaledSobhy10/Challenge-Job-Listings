@@ -7,11 +7,11 @@ let myJobs = jobs;
 
 let myFilterKeywords = new Set();
 
-
 const generateJobLogoDOM = (job) => {
   const imgContainer = document.createElement("div");
   imgContainer.classList.add("co-img-container");
   const img = document.createElement("img");
+  img.setAttribute("alt", "Company logo");
   img.src = job.logo;
   imgContainer.appendChild(img);
   return imgContainer;
@@ -43,7 +43,7 @@ const generateJobInfoDOM = (job) => {
   jobInfo.appendChild(mainInfo);
 
   //job title
-  const jobTitle = document.createElement("h3");
+  const jobTitle = document.createElement("h1");
   jobTitle.className = "job-title";
   jobTitle.textContent = job.position;
   jobInfo.appendChild(jobTitle);

@@ -11,6 +11,6 @@ renderFilters();
 renderJobs();
 
 new ResizeObserver((e) => {
-  jobsList.style.marginTop = e[0].contentRect.height + "px";
-  console.log(e[0].contentRect.height);
+  let currentHight = e[0].contentRect.height + 20;
+  jobsList.style.marginTop = currentHight + "px";
 }).observe(document.querySelector(".filter-bar-container"));
