@@ -196,7 +196,7 @@ main {
   .co-img-container img {
     height: 100%;
   }
-  .co-name{
+  .co-name {
     align-items: center;
   }
 }
@@ -278,6 +278,8 @@ main {
     border-top: 1px solid var(--veryDarkGrayishCyan);
     padding-top: 10px;
     justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
   }
 }
 
