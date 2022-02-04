@@ -241,6 +241,7 @@ main {
   margin-bottom: 15px;
   cursor: pointer;
   color: var(--veryDarkGrayishCyan);
+  font-size: 20px;
 }
 
 .job-title:hover {
@@ -251,6 +252,12 @@ main {
   display: flex;
   align-items: center;
   color: var(--darkGrayishCyan);
+  font-size: 14px;
+}
+.exh1 {
+  font-size: 16px;
+}
+.extra-info h2 {
   font-size: 14px;
 }
 
